@@ -1,6 +1,6 @@
 # coding=utf-8
 
-# Copyright 2019 Allen Institute for Artificial Intelligence 
+# Copyright 2019 Allen Institute for Artificial Intelligence
 # This code was copied from (https://github.com/huggingface/transformers/blob/master/examples/utils_glue.py)
 # and amended by AI2. All modifications are licensed under Apache 2.0 as is the original code. See below for the original license:
 
@@ -95,7 +95,7 @@ class MultipleChoiceFeatures(object):
 class DataProcessor(object):
     """Base class for data converters for sequence classification data sets."""
 
-    def get_train_examples(self, data_dir):
+    def get_train_examples(self, data_dir, task_size):
         """Gets a collection of `InputExample`s for the train set."""
         raise NotImplementedError()
 
@@ -135,9 +135,14 @@ class DataProcessor(object):
 
 class WinograndeProcessor(DataProcessor):
 
-    def get_train_examples(self, data_dir):
+    def get_train_examples(self, data_dir, task_size):
+        if task_size is None:
+            raise Exception("Task size must be provided when training.")
+        if task_size not in ["xs", "s", "m", "l", "xl"]:
+            raise Exception("Task size must be one of: xs, s, m, l, xl.")
+        filename = "train" + "_" + task_size + ".jsonl"
         return self._create_examples(
-            self._read_jsonl(os.path.join(data_dir, "train.jsonl")))
+            self._read_jsonl(os.path.join(data_dir, filename)))
 
     def get_dev_examples(self, data_dir):
         return self._create_examples(

@@ -1,6 +1,6 @@
 # coding=utf-8
 
-# Copyright 2019 Allen Institute for Artificial Intelligence 
+# Copyright 2019 Allen Institute for Artificial Intelligence
 # This code was copied from (https://github.com/huggingface/transformers/blob/master/examples/run_glue.py)
 # and amended by AI2. All modifications are licensed under Apache 2.0 as is the original code. See below for the original license:
 
@@ -52,8 +52,8 @@ from pytorch_transformers import (WEIGHTS_NAME, BertConfig,
 from pytorch_transformers import AdamW, WarmupLinearSchedule
 
 #from scripts.adhoc_models import RobertaForMultipleChoice
-from scripts.roberta_mc import RobertaForMultipleChoice
-from scripts.utils import (compute_metrics, convert_examples_to_features,
+from roberta_mc import RobertaForMultipleChoice
+from utils import (compute_metrics, convert_examples_to_features,
                                 output_modes, processors,
                                 convert_multiple_choice_examples_to_features)
 
@@ -223,7 +223,7 @@ def evaluate(args, model, tokenizer, processor, prefix="", eval_split=None):
         results.update(existing_results)
 
     for eval_task, eval_output_dir in zip(eval_task_names, eval_outputs_dirs):
-        eval_dataset = load_and_cache_examples(args, eval_task, tokenizer, evaluate=True, eval_split=eval_split)
+        eval_dataset = load_and_cache_examples(args, eval_task, None, tokenizer, evaluate=True, eval_split=eval_split)
 
         if not os.path.exists(eval_output_dir) and args.local_rank in [-1, 0]:
             os.makedirs(eval_output_dir)
@@ -299,7 +299,7 @@ def evaluate(args, model, tokenizer, processor, prefix="", eval_split=None):
     return results
 
 
-def load_and_cache_examples(args, task, tokenizer, evaluate=False, eval_split="train"):
+def load_and_cache_examples(args, task, task_size, tokenizer, evaluate=False, eval_split="train"):
     processor = processors[task]()
     output_mode = output_modes[task]
     # Load data features from cache or dataset file
@@ -322,7 +322,7 @@ def load_and_cache_examples(args, task, tokenizer, evaluate=False, eval_split="t
         label_list = processor.get_labels()
 
         if eval_split == "train":
-            examples = processor.get_train_examples(args.data_dir)
+            examples = processor.get_train_examples(args.data_dir, task_size)
         elif eval_split == "dev":
             examples = processor.get_dev_examples(args.data_dir)
         elif eval_split == "test":
@@ -403,6 +403,8 @@ def main():
 
     parser.add_argument("--data_cache_dir", default=None, type=str, help="Cache dir if it needs to be diff from data_dir")
 
+    parser.add_argument("--task_size", default="xl", type=str,
+                        help="Size of training set to be used, selected from: 'xs, s, m, l, xl'")
     ## Other parameters
     parser.add_argument("--config_name", default="", type=str,
                         help="Pretrained config name or path if not the same as model_name")
@@ -548,7 +550,7 @@ def main():
 
     # Training
     if args.do_train:
-        train_dataset = load_and_cache_examples(args, args.task_name, tokenizer, evaluate=False)
+        train_dataset = load_and_cache_examples(args, args.task_name, args.task_size, tokenizer, evaluate=False)
         global_step, tr_loss = train(args, train_dataset, model, tokenizer)
         logger.info(" global_step = %s, average loss = %s", global_step, tr_loss)
 
