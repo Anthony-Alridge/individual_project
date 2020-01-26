@@ -150,7 +150,7 @@ class WinograndeProcessor(DataProcessor):
 
     def get_test_examples(self, data_dir):
         return self._create_examples(
-            self._read_jsonl(os.path.join(data_dir, "test.jsonl")))
+            self._read_jsonl(os.path.join(data_dir, "wsc273.jsonl")))
 
     def get_labels(self):
         return ["1", "2"]
