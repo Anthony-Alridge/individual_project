@@ -22,6 +22,7 @@ def find_related(word):
         if cand.dep == dobj:
             print(f'nobj is {cand}')
 
+
 def process(tokens):
     for token in tokens:
         if token.pos == VERB:

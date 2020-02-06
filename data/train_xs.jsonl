@@ -154,7 +154,7 @@
 {"qID": "3MZ3TAMYTLL5OU4GHXJ7879WIBGRIT-1", "sentence": "Ben had to either stop eating chocolates or nuts. He chose to stop eating the _ because they were sweet.", "option1": "chocolates", "option2": "nuts", "answer": "1"}
 {"qID": "3909MD9T21VBZOWSEH5MY1LUCSHFE2-1", "sentence": "James was looking if there is any space to put the book into the shelf. The _ is small.", "option1": "space", "option2": "book", "answer": "1"}
 {"qID": "3909MD9T21VBZOWSEH5MY1LUCSHFE2-2", "sentence": "James was looking if there is any space to put the book into the shelf. The _ is big.", "option1": "space", "option2": "book", "answer": "2"}
-{"qID": "3SNR5F7R947V9FYIFPB71YYMSK9EIS-1", "sentence": "James was writing a poem on his jotter when the ink finished. The _ is a long .", "option1": "poem", "option2": "ink", "answer": "1"}
-{"qID": "3SNR5F7R947V9FYIFPB71YYMSK9EIS-2", "sentence": "James was writing a poem on his jotter when the ink finished. The _ is a low.", "option1": "poem", "option2": "ink", "answer": "2"}
+{"qID": "3SNR5F7R947V9FYIFPB71YYMSK9EIS-1", "sentence": "James was writing a poem on his jotter when the ink finished. The _ is long .", "option1": "poem", "option2": "ink", "answer": "1"}
+{"qID": "3SNR5F7R947V9FYIFPB71YYMSK9EIS-2", "sentence": "James was writing a poem on his jotter when the ink finished. The _ is low.", "option1": "poem", "option2": "ink", "answer": "2"}
 {"qID": "34F34TZU7WXKFL71KPP6J0GOJZ2J2X-2", "sentence": "The couple drank wine out of glasses instead of mugs, because the _ were clean.", "option1": "mugs", "option2": "glasses", "answer": "2"}
 {"qID": "34F34TZU7WXKFL71KPP6J0GOJZ2J2X-1", "sentence": "The couple drank wine out of glasses instead of mugs, because the _ were dirty.", "option1": "mugs", "option2": "glasses", "answer": "1"}
