@@ -17,9 +17,8 @@ def create_word2idx(vocab):
 
 class BagOfWordsFeature():
     def __init__(self, corpus):
-        # Compute vocab
         self.vocab = list(unique_words(corpus))
-        # Create word to idx dictionary
+        # Mapping from words to their index in the feature vector.
         self.word2idx = create_word2idx(self.vocab)
 
     def process(self, problem):
@@ -27,7 +26,7 @@ class BagOfWordsFeature():
         words = [word.lemma_ for word in problem.tokens() if keep_word(word)]
         freqs = Counter(words)
         for word in freqs:
-            if word not in self.word2idx:
-                continue
-            features[self.word2idx[word]] = freqs[word]
+            # Skip unknown words.
+            if word in self.word2idx:
+                features[self.word2idx[word]] = freqs[word]
         return features

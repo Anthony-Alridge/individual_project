@@ -18,7 +18,7 @@ class WSCProblem:
         return len(self.sentence.split()) \
             + max(len(self.candidate_1.split()), len(self.candidate_2.split()))
 
-    def labels(self):
+    def label(self):
         return 1 if self.answer == 1 else -1
 
     def tokens(self):
