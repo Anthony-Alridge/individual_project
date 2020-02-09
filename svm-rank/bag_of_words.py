@@ -1,7 +1,6 @@
 from collections import Counter
 import numpy as np
-import spacy
-from utils import WSCProblem
+
 
 def keep_word(word):
     return word.is_alpha
