@@ -15,8 +15,8 @@ class WSCProblem:
             + f'CANDIDATE_2: {self.candidate_2} \n ANSWER: {self.answer} \n'
 
     def max_length(self):
-        return len(self.sentence.split()) \
-            + max(len(self.candidate_1.split()), len(self.candidate_2.split()))
+        return len(self.sentence) \
+            + max(len(self.candidate_1), len(self.candidate_2))
 
     def label(self):
         return 1 if self.answer == 1 else -1

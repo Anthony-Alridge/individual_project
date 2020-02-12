@@ -3,7 +3,7 @@ import spacy
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
-from bag_of_words import BagOfWordsFeature
+from embedding import WordEmbeddingFeature
 from utils import WSCProblem
 import argparse
 
@@ -61,7 +61,7 @@ def main(train_filename, test_filename, data_dir):
     # Prepare data
     train_data = load_file(data_dir + train_filename, model)
     test_data = load_file(data_dir + test_filename, model)
-    bag_of_words = BagOfWordsFeature(train_data)
+    bag_of_words = WordEmbeddingFeature(max_length_sentence(train_data))
     train, train_labels = apply_features(train_data, [bag_of_words])
     test, test_labels = apply_features(test_data, [bag_of_words])
     print(
