@@ -1,0 +1,244 @@
+
+#######################################
+['weaken', 'weakness', 'weakly', 'weakling', 'weak side', 'strong', 'potent', 'healthy', 'strong', 'invincible', 'durable', 'nonweak', 'tough', 'feeble', 'imperfect', 'decrepit', 'watery', 'faint', 'feeble', 'weedy', 'vincible', 'pithless', 'languid']
+########################################
+#######################################
+['languidly', 'languidness', 'languidly', 'languorous', 'weak', 'swear', 'faint', 'exhausted', 'spiritless', 'lackadaisical', 'weak', 'unenthusiastic']
+########################################
+#######################################
+['enthusiastic', 'unenthusiastically', 'unenthusiastically', 'enthusiastic', 'zealous', 'languid', 'lackadaisical', 'unenthused']
+########################################
+#######################################
+['lack', 'lackadaisicalness', 'lackadaisically', 'lackadaisically', 'lackadaisicalness', 'languorous', 'listless', 'languid', 'halfhearted', 'unenthusiastic']
+########################################
+#######################################
+['less', 'spiritlessness', 'spiritlessly', 'spiritlessness', 'spiritlessly', 'meek', 'languid']
+########################################
+#######################################
+['exhaustedly', 'exhaustedly', 'exhaustipated', 'exhaustipated', 'inexhausted', 'played out', 'overtired', 'knackered', 'spent', 'jaded', 'languid', 'weak', 'tired']
+########################################
+#######################################
+['faintish', 'forfaint', 'faintful', 'faintsome', 'faint hearted', 'faint-hearted', 'light-headed', 'shadowy', 'feeble', 'swoon', 'pass out', 'conk', 'syncope', 'swoon', 'zonk out']
+########################################
+#######################################
+['unswear', 'sweareth', 'forswear', 'reswear', 'beswear', 'trust', 'curse', 'affirm', 'dull', 'swear word', 'depose', 'depone', 'curse', 'curse', 'swear word', 'perjure', 'declare', 'vow']
+########################################
+#######################################
+['languorously', 'languorousness', 'languid', 'dreamy', 'lackadaisical']
+########################################
+#######################################
+['languid', 'languid']
+########################################
+#######################################
+['languid']
+########################################
+#######################################
+['pith', 'pithy', 'weak']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['weed', 'weedy sea dragon', 'weedily', 'weedy hawksbeard', 'weediness', 'weedily', 'underweight', 'weedlike', 'faint', 'feeble', 'weak', 'weedlike']
+########################################
+#######################################
+['weed', 'weedy', 'weedy']
+########################################
+#######################################
+['feebly', 'feeblesome', 'enfeeble', 'feebleness', 'feebleness', 'bull', 'stalwart', 'weak', 'nerveless', 'faint', 'decrepit', 'dim', 'weak', 'lame', 'faint', 'little', 'impotent']
+########################################
+#######################################
+['weight', 'overweight', 'overweight', 'overweight', 'scraggly', 'boney', 'bony', 'scraggy', 'skinny']
+########################################
+#######################################
+['weedy', 'weedy']
+########################################
+#######################################
+['weedy', 'weedy']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['burrweed', 'antiweed', 'weedwhacker', 'chickweed', 'widgeonweed', 'flower', 'weeds', 'pot', 'tobacco', 'cigar', 'seaweed', 'remove', 'stub']
+########################################
+#######################################
+['unwatery', 'waterily', 'nonwatery', 'reeking', 'waterish', 'weak', 'washy', 'wishy washy', 'weak']
+########################################
+#######################################
+[]
+########################################
+#######################################
+['wash', 'wash', 'washiness', 'washily', 'watery', 'washed-out', 'faded']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['watery']
+########################################
+#######################################
+['decrepitly', 'decrepitness', 'decrepitly', 'decrepitude', 'flea-bitten', 'weakly', 'feeble', 'infirm', 'weak', 'sapless']
+########################################
+#######################################
+['sap', 'less', 'sap', 'saplessness', 'decrepit']
+########################################
+#######################################
+['infirmness', 'infirmly', 'infirmation', 'confirm', 'confirm', 'decrepit', 'disconfirm', 'disconfirm', 'weak', 'feeble']
+########################################
+#######################################
+['weak', 'weakliness', 'ultraweakly', 'decrepit', 'weak']
+########################################
+#######################################
+[]
+########################################
+#######################################
+['itude', 'decrepit', 'decay', 'dilapidation', 'decay']
+########################################
+#######################################
+['decrepit', 'decrepit']
+########################################
+#######################################
+['decrepit']
+########################################
+#######################################
+['imperfectly', 'imperfective', 'imperfectness', 'preterimperfect', 'infallible', 'utopian', 'perfect', 'flawless', 'perfect', 'progressive', 'fallible', 'weak', 'frail', 'tainted', 'past continuous']
+########################################
+#######################################
+[]
+########################################
+#######################################
+['taintedness', 'nontainted', 'untainted']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['perfectamundo', 'perfectest', 'perfectation', 'nonperfect', 'perfectness', 'imperfect', 'flawed', 'imperfect', 'faulty', 'flawed', 'flawed', 'fallible', 'damaged', 'defective', 'faultful', 'unadulterated', 'perfective', 'faultless', 'enhance', 'expert', 'hone', 'better', 'polish', 'optimize']
+########################################
+#######################################
+['flaw', 'flaw', 'less', 'flawlessness', 'flawlessly', 'flawed', 'flawful', 'imperfect', 'defective', 'disfigured', 'flawful', 'perfect', 'spotless', 'faultless', 'impeccable', 'undamaged', 'unflawed', 'defectless', 'impeccable']
+########################################
+#######################################
+['ian', 'utopianize', 'antiutopian', 'nonutopian', 'techno utopian', 'utopianist', 'imperfect', 'realistic', 'utopian', 'unrealistic', 'Utopian']
+########################################
+#######################################
+['infallibly', 'infallibleness', 'noninfallible', 'fallible', 'imperfect', 'faulty', 'defective', 'error prone', 'fallible', 'error prone', 'faultful', 'perfect', 'indefective', 'faultless', 'impeccable', 'indefective']
+########################################
+#######################################
+['imperfect']
+########################################
+#######################################
+['imperfect', 'imperfection', 'imperfection']
+########################################
+#######################################
+['imperfect', 'imperfectively', 'imperfectiveness', 'imperfectivization', 'imperfectiveness', 'perfective', 'perfective', 'imperfective aspect', 'past continuous']
+########################################
+#######################################
+['imperfect', 'perfectly', 'amiss']
+########################################
+#######################################
+['toughly', 'toughen', 'supertough', 'ultratough', 'toughie', 'weak', 'easy', 'tender', 'wimpy', 'soft', 'gentle', 'bully', 'rugged', 'sturdy', 'street fighter', 'problematical', 'hard', 'bad', 'toughened']
+########################################
+#######################################
+['untoughened', 'tempered', 'tough']
+########################################
+#######################################
+['bad money', 'badness', 'bad actor', 'badass', 'bad fairy', 'good', 'just', 'sincere', 'adequate', 'right', 'good', 'plus', 'beautiful', 'favourable', 'positive', 'uncollectible', 'unsound', 'high-risk', 'tough', 'badly', 'badness', 'big']
+########################################
+#######################################
+['hexachord', 'hardman', 'hardnosed', 'hardstand', 'forhard', 'harden', 'soft', 'bearable', 'soft', 'controvertible', 'agreeable', 'easy', 'soft', 'soft', 'lazy', 'gentle', 'severely', 'tough', 'backbreaking', 'strong', 'hardly']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['ruggedly', 'nonrugged', 'ruggedization', 'ruggedness', 'ruggedize', 'smooth', 'broken', 'furrowed', 'tough', 'hardy', 'burly']
+########################################
+#######################################
+['bully pulpit', 'antibully', 'nonbully', 'bullyman', 'bullier', 'browbeat', 'strong-arm', 'bang-up', 'push around', 'well done', 'yobo', 'roughneck', 'rowdy', 'yob', 'ruffian']
+########################################
+#######################################
+['gently', 'gentleman', 'gentle craft', 'gentlehearted', 'gentleship', 'rude', 'rough', 'harsh', 'mean', 'tough', 'semple', 'brutal', 'forceful', 'butcher', 'lady', 'aristocratical', 'pacify', 'ennoble', 'docile', 'friendly', 'easy', 'soft', 'polite', 'soft', 'nonabrasive', 'pet']
+########################################
+#######################################
+['hexachord', 'soften', 'softbound', 'softgoods', 'supersoft', 'softroader', 'loud', 'abrasive', 'sensible', 'firm', 'harsh', 'hard', 'hard', 'rock hard', 'stony', 'firm', 'flaccid', 'diffused', 'easy', 'subdued', 'piano']
+########################################
+#######################################
+['wimp', 'wimp', 'wimpily', 'wimpiness', 'tough', 'wimpish']
+########################################
+#######################################
+['tend', 'nontender', 'tenderhearted', 'tendereth', 'firetender', 'tendersome', 'tough', 'affectionate', 'sensitive', 'offer', 'cranky', 'bid', 'stamp', 'cutter', 'pinnace', 'tenderise', 'supply ship', 'change', 'offer', 'give']
+########################################
+#######################################
+['ease', 'easygoing', 'speakeasy', 'breathe easy', 'overeasy', 'easily', 'difficult', 'difficult', 'hard', 'uneasy', 'hard difficult', 'difficult', 'unsolvable', 'hard', 'uneath', 'difficult', 'well-situated', 'gentle', 'promiscuous', 'easily', 'leisurely']
+########################################
+#######################################
+['tough', 'hood', 'poser', 'bitch']
+########################################
+#######################################
+['tough']
+########################################
+#######################################
+['tough']
+########################################
+#######################################
+['tough', 'toughenable', 'toughener', 'harden', 'strengthen', 'season']
+########################################
+#######################################
+['tough']
+########################################
+#######################################
+['weak', 'weak']
+########################################
+#######################################
+[]
+########################################
+#######################################
+[]
+########################################
+#######################################
+['weak', 'mild', 'powerless', 'flimsy', 'week', 'strong-willed', 'potent', 'unattackable', 'substantial', 'healthy', 'firm', 'hardy', 'warm', 'hard']
+########################################
+#######################################
+['warmer', 'warmful', 'warmware', 'warm blooded', 'rewarm', 'cool', 'arctic', 'cool', 'cool', 'stony', 'cool', 'cold', 'chilly', 'ardent', 'warmly', 'strong', 'quick', 'change', 'chafe']
+########################################
+#######################################
+['hardiship', 'hardyesque', 'foolhardy', 'winterhardy', 'hardiness', 'audacious', 'strong', 'Thomas Hardy', 'Oliver Hardy', 'rugged', 'stout', 'sturdy', 'stalwart', 'sturdy']
+########################################
+#######################################
+['firmwide', 'firmish', 'unfirm', 'firmish', 'firmer', 'soft', 'flaccid', 'soft', 'gentle', 'immobile', 'unwaveringly', 'solid', 'unfaltering', 'unfluctuating', 'house', 'business firm', 'resolved', 'fast', 'stalwart']
+########################################
+#######################################
+['health', 'superhealthy', 'healthification', 'nonhealthy', 'healthily', 'unhealthy', 'unhealthy', 'unhealthy', 'weak', 'ill', 'disease', 'sick', 'level-headed', 'good for you', 'sizeable', 'healthful', 'strong', 'wholesome', 'hardy', 'healthful']
+########################################

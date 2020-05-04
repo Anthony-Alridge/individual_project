@@ -4,6 +4,8 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import GridSearchCV
 from embedding import WordEmbeddingFeature
+from sentiment_features import SentimentFeature
+from bag_of_words import BagOfWordsFeature
 from utils import WSCProblem
 import argparse
 
@@ -61,9 +63,13 @@ def main(train_filename, test_filename, data_dir):
     # Prepare data
     train_data = load_file(data_dir + train_filename, model)
     test_data = load_file(data_dir + test_filename, model)
-    bag_of_words = WordEmbeddingFeature(max_length_sentence(train_data))
-    train, train_labels = apply_features(train_data, [bag_of_words])
-    test, test_labels = apply_features(test_data, [bag_of_words])
+    max_length = max_length_sentence(train_data)
+    features = []
+    features.append(BagOfWordsFeature(train_data))
+    features.append(SentimentFeature(max_length))
+    # features.append(WordEmbeddingFeature(max_length))
+    train, train_labels = apply_features(train_data, features)
+    test, test_labels = apply_features(test_data, features)
     print(
         f'Training shape is {train.shape} and labels is {train_labels.shape}')
     print(f'Testing shape is {test.shape} and labels is {test_labels.shape}')
