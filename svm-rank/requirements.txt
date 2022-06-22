@@ -1,7 +1,7 @@
 spacy>=2.2.0,<3.0.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.0/en_core_web_md-2.2.0.tar.gz#egg=en_core_web_md
 jsonlines==1.2.0
-numpy==1.18.1
+numpy==1.22.0
 scikit-learn==0.22.1
 sklearn
 transformers==2.4.1
