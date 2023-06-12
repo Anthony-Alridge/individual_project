@@ -4,5 +4,5 @@ jsonlines==1.2.0
 numpy==1.18.1
 scikit-learn==0.22.1
 sklearn
-transformers==2.4.1
+transformers==4.30.0
 torch
